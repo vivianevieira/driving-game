@@ -12,3 +12,15 @@ body {
   position: absolute;
   top: 1px;
 }
+
+.direction-south {
+  transform: rotate(90deg);
+}
+
+.direction-west {
+  transform: rotate(180deg);
+}
+
+.direction-north {
+  transform: rotate(-90deg);
+}
