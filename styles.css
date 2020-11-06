@@ -7,6 +7,20 @@ body {
   background-color: #2c8c24;
 }
 
-.container img {
+.f1-car {
   width: 11rem;
+  position: absolute;
+  top: 1px;
+}
+
+.direction-south {
+  transform: rotate(90deg);
+}
+
+.direction-west {
+  transform: rotate(180deg);
+}
+
+.direction-north {
+  transform: rotate(-90deg);
 }
